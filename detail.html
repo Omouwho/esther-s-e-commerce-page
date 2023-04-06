@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Grocery Store</title>
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/assets/img/cart4.svg" type="" />
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="container-fluid px-0 sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand text-white px-3 mx-0" href="/index.html">Esther's Grocery Store</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/detail.html">Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/checkout.html">Checkout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/search.html">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/registration.html">Registration</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/cart.html"><i class="bi bi-cart">Cart Items</i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Details Page -->
+  <div class="container mt-5">
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/assets/img/oreo.webp" class="w-50 d-none d-lg-block" alt="Product Image" />
+      </div>
+
+      <div class="col-md-6">
+        <h3>Oreo Original Mini 22.5 g</h3>
+        <p class="lead">
+          Buy Oreo Original Mini 22.5 g on our website. When you're having a
+          long day and need to take a break, nothing does it like having a
+          pack of biscuits to munch on. Biscuits are great for kids and
+          adults. If you leave a pack of biscuits with your kids, they'll
+          empty the entire pack in minutes. There are lots of biscuit
+          varieties to choose from: cookies, crackers, digestives, shortbread,
+          ginger biscuits, shortcake, cream sandwich, chocolate biscuits,
+          wafers.
+        </p>
+        <p>Price: N<span id="price">150</span></p>
+        <button class="btn btn-primary btn-lg" id="add-to-cart">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/assets/img/Kellogg-Corn-Flakes-3.webp" class="w-50 d-none d-lg-block" alt="Product Image" />
+      </div>
+
+      <div class="col-md-6 ">
+        <h3>Kellogg's Cereal 400 g</h3>
+        <p class="lead">
+          Buy Kellogg's cereal 400 g (NG) our website Kellogg's Coco Pops 450
+          g (NG) is a nutritious chocolaty cereal with a unique chocolaty
+          taste and flavour. It is loved especially by children and even
+          adults for generations, it has an exciting chocolate flavour and is
+          fortified with essential vitamins and minerals. It contains very
+          limited amounts of fat and salt and is produced by kellogs. It is
+          made with wholesome grains and helps your family start the morning
+          with energy by delivering a number of vital, take-on-the-day
+          nutrients among which are B vitamins, iron and fibre. The benefits
+          include reduction of tiredness and fatigue, proper bowel function,
+          relief from constipation, aid in digestion and prevention of
+          overeating among others. The ingredients are Rice, Glucose Syrup,
+          Sugar, Fat Reduced Cocoa Powder, Cocoa Mass, Salt, Barley Malt
+          Extract and Flavorings. It is very tasty, nutritious and also very
+          filling.
+        </p>
+        <p>Price: N<span id="price">5000</span></p>
+        <button class="btn btn-primary btn-lg" id="add-to-cart">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/assets/img/lays.jpeg" class="w-50 d-none d-lg-block" alt="Product Image" />
+      </div>
+      <div class="col-md-6">
+        <h3>Lay's Chips Nature 75 g</h3>
+        <p class="lead">
+          Buy Lay's Chips Nature 75 g on Supermart.ng. Potato chips and potato
+          crisps are light, crispy snacks made mainly of potato, oil and salt.
+          They can be salty, high in fat and contain a lot of calories, so be
+          careful not to eat too much. Potato chips come in several different
+          flavors and are usually packed in an air tight bag. They are great
+          for snacking and can be served at parties. Supermart.ng is the
+          leading online supermarket and grocery delivery service in Nigeria.
+          Order online from over 10,000 groceries and receive same-day
+          delivery. Get the best prices and discounts on groceries in Nigeria
+          here.
+        </p>
+        <p>Price: N<span id="price">1450</span></p>
+        <button class="btn btn-primary btn-lg" id="add-to-cart">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/assets/img/baked beans.webp" class="w-50 d-none d-lg-block" alt="Product Image" />
+      </div>
+      <div class="col-md-6">
+        <h3>Heinz Baked Beans 415 g</h3>
+        <p class="lead">
+          Buy Heinz Baked Beans 415 g on our website. Baked beans are very
+          nutritious and allow you add variety to your diet. Baked beans are
+          an excellent source of protein and other nutrients. Beans can be
+          cooked in a variety of ways depending on your diet and taste. Baked
+          beans is a dish originated by the native americans. It's a dish
+          traditionally containing white beans which are parboiled and then
+          sometimes baked at a low temperature for a lengthy period of time
+          but despite the name, it's usually stewed in a sauce; this is the
+          usual preparation of the dish when not using canned beans. Canned
+          baked beans are cooked through a steaming process, they are made
+          from haricot beans, also known as navy beans in a sauce. Heinz Baked
+          Beans are a brand of baked beans produced by the H. J. Heinz
+          Company, and sold in the United Kingdom and other countries. They
+          have been sold as Heinz Beanz since 2008. It's usually added to
+          salad recipes and also mostly served as a side dish during
+          breakfast. Buy Heinz Baked Beans at the best price online on our
+          website. If you want to find the best price of baked beans in
+          Nigeria, then this is the right place.
+        </p>
+        <p>Price: N<span id="price">755</span></p>
+        <button class="btn btn-primary btn-lg" id="add-to-cart">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/assets/img/dettol.jpeg" class="w-50 d-none d-lg-block" alt="Product Image" />
+      </div>
+      <div class="col-md-6">
+        <h3>Dettol Antiseptic Disinfectant 125 ml</h3>
+        <p class="lead">
+          Buy Dettol Antiseptic Disinfectant 125 ml x6 on our website. Dettol
+          antiseptic disinfectant can be used for cleaning, for laundry and
+          for disinfecting instruments like nail cutters, shaving sticks,
+          clippers, razor blades and pimple extractors. It can also be applied
+          on the skin in direct or indirect form. You can mix it with your
+          bath water or use it in washing soiled hands and feet. It has a rich
+          lather when agitated with a strong, microbe unfriendly odor. Its
+          ingredient formulation is made of Chloroxylenol (which is the active
+          ingredient in Dettol and comprises 4. 8% of Dettol's total
+          admixture), pine oil, isopropanol, castor oil, soap and water.
+          Chloroxylenol, dettol's chief antimicrobial ingredient was first
+          made in 1927. It is on the World Health Organization's list of
+          Essential Medicines, the safest and most effective medicines needed
+          in a health system. Chloroxylenol is most effective against
+          Grampositive bacteria. It works by disruption of the cell wall and
+          stopping the function of enzymes. So knowing that harmful microbes
+          are all around us, what better way to keep ourselves and our
+          families safe than with Dettol. Buy Dettol Antiseptic Disinfectant
+          125 ml x6 on our website.
+        </p>
+
+        <p>Price: N<span id="price">150</span></p>
+
+        <button class="btn btn-primary btn-lg" id="add-to-cart">
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
